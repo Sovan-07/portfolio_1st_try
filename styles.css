@@ -494,8 +494,18 @@
     .project-skill {
       width: 35px;
     }
+    .project-number {
+        position: absolute;
+        font-size: 60px;
+        font-weight: 600;
+        color: rgb(255, 255, 255);
+        z-index: 10;
+        opacity: 0;
+        transition: all 1s;
+    }
+    
     .project-card:hover .project-number {
-      display: none;
+        opacity: 1;
     }
     .project-card:hover .project-content {
       scale: 0.55;
